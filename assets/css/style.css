@@ -1,0 +1,200 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.header-sec{
+    background-image: url(../image/slide3.jpg);
+    width: 100%;
+    background-size: cover;
+
+}
+
+.main-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    border: 1px solid white;
+    background-color: white;
+    padding: 0 40px;
+   
+    
+    
+}
+.side-menu{
+    display: none;
+}
+
+
+.header nav ul {
+    display: flex;
+}
+.header nav ul li{
+    list-style: none;
+    text-transform: uppercase;
+    font-size: larger;
+    font-weight: bold;
+/* padding: 40px;    */
+padding-left: 60px;
+}
+.header nav ul li a{
+    text-decoration: none;
+    color: #000;
+
+}
+    
+ .logo img{
+    height: 140px;
+    margin-left: 40px;
+}
+.main-sec
+{
+    text-align: center;
+    padding: 250px 0px;
+}
+
+
+.about{
+    padding: 80px 0px;
+}
+
+.about-h{
+    text-align: center;
+    padding-bottom: 60px;
+
+
+}
+.contain img{
+    width: 100%;
+}
+.contain h3{
+    text-align: center;
+}
+.contain p{
+    text-align: center;
+}
+.special{
+    width: 100%;
+    background-size: cover;
+    background-image: url(../image/story-bg.jpg);
+
+}
+
+.heading{
+    text-align: center;
+    color: white;
+    margin: 300px 0px; 
+}
+
+.play-btn{
+    font-size: 30px;
+} 
+.services{
+    text-align: center;
+}
+.services-h{
+    text-align: center;
+    padding-top: 60px;
+    /* padding-bottom: 60px; */
+
+}
+.course{
+    font-size: 20px;
+    font-weight: 400;
+    margin: 60px 0px;
+}
+.sub-btn
+{
+    text-align: center;
+    margin-top: 40px;
+    padding-bottom: 140px;
+}
+.subscribe{
+    width: 100%;
+    background-color: lightgray;
+}
+.subscribe-h{
+    text-align: center;
+    padding: 60px 0px;
+}
+.new-btn 
+{
+    text-align: center;
+    box-shadow: 20px 20px 10 grey;
+
+    /* margin-top: 40px; */
+    padding-bottom: 140px;
+}
+.enfold-h{
+    text-align: center;
+    padding: 60px 0;
+}
+.enfold{
+    width: 100%;
+    text-align: center;
+    padding-bottom: 80px;
+}
+.click-btn .btn{
+    color: olivedrab;
+    font-size: 20px;
+    border: 1px solid olivedrab;
+    
+
+}
+@media screen and (max-width: 992px) {
+    .side-menu{
+        display: block;
+    }
+    
+    .header nav ul li{
+        display: none;
+    }
+}
+@media screen and (max-width: 992px) {
+    .main-sec img.mt-3{
+        width: 100%;
+        }
+    
+}
+
+
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    text-align:center;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  
+  }
+  
+  .sidenav a:hover{
+    color: #f1f1f1;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  .enfold-sec img{
+    width: 100%;
+  }
